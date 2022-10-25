@@ -35,7 +35,7 @@ const Login = () => {
             </a>
           </div>
           <div>
-            <button className="bg-[#00df9a] mx-[50px] outline-none rounded-md font-medium w-[200px] my-3 mx-auto px-6 py-3">
+            <button className="bg-[#00df9a]  outline-none rounded-md font-medium w-[200px] my-3 md:mx-auto px-6 py-3">
               Login
             </button>
           </div>
