@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,6 +17,7 @@ const Navbar = () => {
           <a href=""><li className="p-4">Company</li></a>
           <a href=""><li className="p-4">Blog</li></a>
           <a href=""><li className="p-4">Contact</li></a>
+          <Link to="/about" className="p-4">About Us</Link>
         </ul>
       <div onClick={handleNav} className="block text-white md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenuUnfold size={20} />}
