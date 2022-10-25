@@ -16,6 +16,7 @@ const Navbar = () => {
           <a href=""><li className="p-4">Company</li></a>
           <a href=""><li className="p-4">Blog</li></a>
           <a href=""><li className="p-4">Contact</li></a>
+          <a href=""><button className="p-4 bg-[#00df9a] text-white rounded px-6 py-3 w-[120px] mx-auto">Login</button></a>
         </ul>
       <div onClick={handleNav} className="block text-white md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenuUnfold size={20} />}
@@ -32,7 +33,9 @@ const Navbar = () => {
         <li className="p-4 border-b border-gray-600">Home</li>
         <li className="p-4 border-b border-gray-600">Company</li>
         <li className="p-4 border-b border-gray-600">Blog</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 border-b border-gray-600">Contact</li>
+        <a href=""><button className="p-4 my-3  mx-4 bg-[#00df9a] text-white rounded px-6 py-3 w-[120px] mx-auto">Login</button></a>
+
       </ul>
       </div>
     </>
