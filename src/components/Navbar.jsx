@@ -16,7 +16,7 @@ const Navbar = () => {
         </a>
         <ul className="hidden md:flex">
           <Link to="/" className="p-4">
-            Home
+            <li className="p-4">Home</li>
           </Link>
           <a href="">
             <li className="p-4">Company</li>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <li className="p-4">Contact</li>
           </a>
           <Link to="/about" className="p-4">
-            About Us
+            <li className="p-4">About Us</li>
           </Link>
         </ul>
         <div onClick={handleNav} className="block text-white md:hidden">
@@ -54,7 +54,7 @@ const Navbar = () => {
           <li className="p-4 border-b border-gray-600">Blog</li>
           <li className="p-4 border-b border-gray-600">Contact</li>
           <a href="">
-            <button className="p-4 my-3  mx-4 bg-[#00df9a] text-white rounded px-6 py-3 w-[120px] mx-auto">
+            <button className="p-4 my-3   bg-[#00df9a] text-white rounded px-6 py-3 w-[120px] mx-auto">
               Login
             </button>
           </a>

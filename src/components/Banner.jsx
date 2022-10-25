@@ -19,7 +19,7 @@ const Banner = () => {
             inventore a, ipsa explicabo natus eos beatae quam veniam unde
             aliquam facilis.
           </p>
-          <button className="bg-black text-[#00df9a] rounded w-[200px] font-medium my-6 mx-auto py-3 md:mx-0 py-3">
+          <button className="bg-black text-[#00df9a] rounded w-[200px] font-medium my-6 mx-auto  md:mx-0 py-3">
             Get Started
           </button>
         </div>
