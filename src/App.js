@@ -1,21 +1,17 @@
-import Banner from "./components/Banner";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
-import logo from "./logo.svg";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import {BrowserRouter as Router,
+Routes,
+Route} from "react-router-dom"
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Banner />
-      <Newsletter />
-      <Cards />
-      <Footer />
-    </>
+  return (    
+      <Router>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="about" element ={<AboutUs/>}/>
+      </Routes>
+      </Router>
   );
 }
 
