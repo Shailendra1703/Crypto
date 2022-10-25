@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
         <a href="#" className=""><h1 className="w-full text-3xl font-bold text-[#00df9a]">CRYPTO.</h1></a>
         <ul className="hidden md:flex">
-          <a href=""><li className="p-4">Home</li></a>
+          <Link to="/" className="p-4">Home</Link>
           <a href=""><li className="p-4">Company</li></a>
           <a href=""><li className="p-4">Blog</li></a>
           <a href=""><li className="p-4">Contact</li></a>

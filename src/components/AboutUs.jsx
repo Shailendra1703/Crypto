@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const AboutUS = () => {
   return (
     <>
+    <Navbar/>
     <div className=" flex justify-between pt-10 md:ml-[120px]">
      <h1 className=" text-white flex items-center flex-col text-center text-[50px] md:text-4xl  md:pb-[50px] font-bold md:w-auto">
         About Us
